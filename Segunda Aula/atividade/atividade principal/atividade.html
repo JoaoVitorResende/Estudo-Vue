@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atividade</title>
+
+    <link rel="stylesheet" href="../atividadecss/principal.css" />
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="icon" href="../imagens/indice.png" type="image/png"/>
+</head>
+<body>
+    <form action = "#" methods="GET">
+        <fieldset>
+            <div>
+                <label for ="Nome">Nome</label>
+                <input type="text" id ="Nome" name="nome">
+                <br>
+            </div>
+            <br>
+            <div>
+                <label for="idade"> Idade: </label>
+                <input type="number" min="0" step = "1" id ="idade" name="idade">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="datadenascimento">Data de nascimento</label>
+                <input type="date" id="data de nascimento" name="data de nascimento">          
+            </div>
+            <br>
+
+            <div>
+                <label for ="CPF">CPF</label>
+                <input type="number" min="0" step="1" id ="CPF" name="cpf">
+                <br>
+            </div>
+            <br>
+            <div>
+                <label for ="profissão">Profissão</label>
+                <input type="text" id ="profissão" name="profissão">
+            </div>
+            <br>
+
+            <div>
+                <label for = "cidades">Cidade:</label>
+                <select name="cidades" id="cidades">
+                    <option value="1">Tubarão</option>
+                    <option value="2">Capivari</option>
+                    <option value="3">Laguna</option>
+                    <option value="4">Casa do Piong</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for = "contato">Contato:</label>
+                        <select name="contato" id="contato">
+                            <option value="1">Whats app</option>
+                            <option value="2">E-mail</option>
+                            <option value="3">Linked in</option>
+                        </select>
+            </div>
+            <br>
+            <label for="qt dependentes"> Dependentes : </label>
+            <br>
+            <fieldset>             
+                <div>
+                    <input type="radio" id="dependente_um" name="qt dependente" value="qt" checked>
+                    <label for="dependente_um"> um apenas </label>
+                </div>
+
+                <div>
+                    <input type="radio" id="dependente_dois" name="qt dependente" value="qt">
+                    <label for="dependente_dois"> dois apenas </label>
+                </div>
+
+                <div>
+                    <input type="radio" id="dependente_mais" name="qt dependente" value="qt">
+                    <label for="dependente_mais"> mais pessoas </label>
+                </div>
+
+             </fieldset>
+                <br>
+                <label for="s"> Sexo : </label>
+                <br>
+                <fieldset>
+                    <div>
+                        <input type="radio" id="sexo" name="sexo da pessoa" value="s" checked>
+                        <label for="sexo"> masculino</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="sexo" name="sexo da pessoa" value="s">
+                        <label for="sexo"> feminino </label>
+                    </div>
+
+                </fieldset>   
+                <br> <label for="s"> Tipo de Renda: </label> <br>
+                <fieldset>
+                    <div>
+                        <input type="radio" id="renda" name="renda baixa" value="rb" checked> 
+                        <label for="renda"> renda baixa </label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="renda" name="renda media" value="rm">
+                        <label for="renda"> renda media </label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="renda" name="renda alta" value="ra">
+                        <label for="renda"> renda alta </label>
+                    </div>
+
+                </fieldset> 
+                <br>
+                <div class="container">
+                    <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <button class="botao1" type="submit">Enviar</button>   
+                    </form>  
+                </div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background:#f2f3f5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body,input,textarea,button{
+    font: 400 1rem "inter",sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.botao1 {
+    border-radius: 5px;
+    background-color: #4953B8;
+    height: 3rem;
+    margin-top: 2rem;
+    width:50% ; 
+    border: 0;
+    color: white;
+    box-shadow: 0 0 60px rgba(0, 0, 0,0.05);
+}

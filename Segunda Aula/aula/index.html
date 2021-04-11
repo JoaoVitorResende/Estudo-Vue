@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Htmls</title>
+</head>
+<body>
+    <h1 style="text-align:center">sistema de compras</h1>
+    <form action = "#" methods="GET">
+        <div>
+            <label
+            for ="Produto">Produto</label>
+            <input type="text" id ="Produto" name="produto">
+            <br>
+            <br>
+            <div>
+                <label for="qtd">Quantidade de produtos</label>
+                <input type="number" name="qtd" id="qtd">
+            </div>
+
+            <br>
+            <div>
+                <label for="datacompra">data da compra</label>
+                <input type="date" id="data da compra" name="data da compra">
+                
+            </div>
+
+            <br>
+            <select name="produtos_list" id="produtos_list">
+                <option value="1">caderno</option>
+                <option value="2">lapis</option>
+                <option value="3">livro</option>
+                <option value="4">dicionario</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>tipo de compra</legend>
+                
+                <div>
+                    <input type="radio" id="varejo" name="tipo compra" value="v" checked>
+                    <label for="varejo">varejo</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="atacado" name="tipo compra" value="a">
+                    <label for="atacado">atacado</label>
+                </div>
+
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <legend>meios pagamento</legend>
+                <div>
+                    <input type="checkbox" id="dinheiro" name="tipo de pagamento" value="d">
+                    <label for="dinheiro">dinheiro</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="cartão" name="tipo de pagamento" value="c">
+                    <label for="cartão">cartão</label>
+                </div>
+
+            </fieldset>
+            <br>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="e">
+                </div>
+                <hr>
+
+            <br>
+            <div>
+                <label for="cor" class>Escolha a cor</label>
+                <input type="color" name="cor" id="cor">
+            </div>
+            <br>
+            
+            <button type = "submit">buscar</button>
+            <button type = "reset">limpar</button>
+            <br>
+            <input type = "file" accept="image/*" name="upImage"></input>
+
+        </div>
+        <br><br>
+
+        <div>
+            <label for="comentario"> deixe um comentario</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        </div>
+
+    </form>
+</body>
+</html>
